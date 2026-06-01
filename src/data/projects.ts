@@ -156,7 +156,7 @@ A personal tech blog focused on:
     image: '/images/projects/museum-cover.png',
     links: {
       github: 'https://github.com/Dream22180971/animation-memory-museum',
-      deploy: 'https://animation-memory-museum.seanwalter.top',
+      deploy: 'https://museum.seanwalter.top/',
     },
     status: 'active',
     featured: true,
