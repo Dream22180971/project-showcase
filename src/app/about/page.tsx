@@ -76,7 +76,7 @@ export default function AboutPage() {
           )}>
             <span className="flex items-center gap-1.5">
               <MapPin className="w-4 h-4" />
-              {isZh ? '南京' : 'Nanjing, China'}
+              {isZh ? '杭州' : 'Hangzhou, China'}
             </span>
             <span className="flex items-center gap-1.5">
               <GitHubIcon className="w-4 h-4" />
