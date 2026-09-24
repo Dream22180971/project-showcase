@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=30&duration=2300&pause=900&color=00FFFF&center=true&vCenter=true&width=900&lines=TURN+REPOSITORIES+INTO+A+PORTFOLIO;BILINGUAL+%C2%B7+MOTION+%C2%B7+DATA-DRIVEN" alt="Typing SVG" />
 
 # Project Showcase · 项目作品集
 
@@ -17,7 +16,7 @@
 
 ---
 
-## 为什么做
+## 💡 为什么做
 
 GitHub 主页负责告诉别人“你有哪些仓库”，作品集应该进一步解释 **这些项目为什么值得看**。
 
@@ -34,7 +33,7 @@ Project Showcase 增加的是视觉表达层：
 
 ---
 
-## 5 分钟快速开始
+## ⚡ 5 分钟快速开始
 
 ```bash
 git clone https://github.com/Dream22180971/project-showcase.git
@@ -48,7 +47,7 @@ npm run dev
 
 ---
 
-## 核心思路
+## 🧭 核心思路
 
 项目信息集中管理，新增项目不需要重新改整套 UI。
 
@@ -66,7 +65,7 @@ npm run dev
 
 ---
 
-## 核心功能
+## ✨ 核心功能
 
 | 功能 | 说明 |
 |---|---|
@@ -79,7 +78,7 @@ npm run dev
 
 ---
 
-## 技术栈
+## 🛠 技术栈
 
 ```text
 Next.js 16
@@ -92,7 +91,7 @@ Playwright
 
 ---
 
-## 路线图
+## 🗺 路线图
 
 - [x] 中英文体验
 - [x] 项目筛选
@@ -105,7 +104,7 @@ Playwright
 
 ---
 
-## License
+## 📄 License
 
 [MIT](./LICENSE)
 
