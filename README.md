@@ -1,3 +1,36 @@
+A bilingual, visually distinctive project showcase that turns repositories into a portfolio. / 一个中英文双语、强调视觉表达的个人项目作品集。
+
+<!-- README-V2-BILINGUAL -->
+
+# project-showcase
+
+> **EN:** A bilingual, visually distinctive project showcase that turns repositories into a portfolio.  
+> **中文：** 一个中英文双语、强调视觉表达的个人项目作品集。
+
+## Demo / 演示
+
+[Live Demo / 在线体验](https://project-showcase.seanwalter.top) · A GIF can be added when the next visual refresh lands. / 下一次视觉升级时可补 GIF。
+
+## Quick Start / 5 分钟快速开始
+
+```bash
+git clone https://github.com/Dream22180971/project-showcase.git
+cd project-showcase
+npm install
+npm run dev
+```
+
+> **EN:** Clone, install, run. Advanced configuration and project-specific details are documented below.  
+> **中文：** 克隆、安装、运行即可开始。高级配置和项目特定说明继续保留在下方。
+
+## Why this project / 为什么做这个项目
+
+**EN:** This project starts from one concrete problem and prioritizes being understandable, runnable and useful before becoming complex.
+
+**中文：** 这个项目从一个明确问题出发，优先做到易理解、能运行、真正有用，再逐步增加复杂能力。
+
+---
+
 # Project Showcase | Sean Walter 作品集
 
 > 一个赛博朋克风格的个人项目展示站，中英文双语切换，丝滑动效，让你的作品被看见。
