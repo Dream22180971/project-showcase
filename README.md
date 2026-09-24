@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=30&duration=2300&pause=900&color=00FFFF&center=true&vCenter=true&width=900&lines=TURN+REPOSITORIES+INTO+A+PORTFOLIO;BILINGUAL+%C2%B7+MOTION+%C2%B7+DATA-DRIVEN" alt="Typing SVG" />
 
 # Project Showcase
 
@@ -17,7 +16,7 @@
 
 ---
 
-## Why
+## 💡 Why
 
 A GitHub profile explains repositories. A portfolio should explain **why the projects matter**.
 
@@ -34,7 +33,7 @@ Project Showcase adds a visual layer:
 
 ---
 
-## Quick Start
+## ⚡ Quick Start
 
 ```bash
 git clone https://github.com/Dream22180971/project-showcase.git
@@ -48,7 +47,7 @@ Open `http://localhost:3000`.
 
 ---
 
-## Core Idea
+## 🧭 Core Idea
 
 Project data is centralized so adding a project does not require rebuilding the whole UI.
 
@@ -66,7 +65,7 @@ Portfolio
 
 ---
 
-## Features
+## ✨ Features
 
 | Feature | Description |
 |---|---|
@@ -79,7 +78,7 @@ Portfolio
 
 ---
 
-## Stack
+## 🛠 Stack
 
 ```text
 Next.js 16
@@ -92,7 +91,7 @@ Playwright
 
 ---
 
-## Roadmap
+## 🗺 Roadmap
 
 - [x] bilingual experience
 - [x] project filters
@@ -105,7 +104,7 @@ Playwright
 
 ---
 
-## License
+## 📄 License
 
 [MIT](./LICENSE)
 
