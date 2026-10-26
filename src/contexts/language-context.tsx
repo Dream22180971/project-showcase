@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useContext, useEffect, useState } from 'react';
+import { createContext, useContext, useEffect, useSyncExternalStore } from 'react';
 
 type Language = 'en' | 'zh';
 
@@ -145,25 +145,38 @@ const LanguageContext = createContext<LanguageContextType>({
   t: (key: string) => defaultTranslations[key as keyof typeof defaultTranslations] || key,
 });
 
+// 语言偏好存在 localStorage：用 useSyncExternalStore 读取，服务端固定渲染英文，
+// 客户端直接拿到已保存的值，不必在 effect 里 setState 再渲染一遍
+const LANGUAGE_KEY = 'language';
+const languageListeners = new Set<() => void>();
+
+function subscribeLanguage(listener: () => void) {
+  languageListeners.add(listener);
+  window.addEventListener('storage', listener);
+  return () => {
+    languageListeners.delete(listener);
+    window.removeEventListener('storage', listener);
+  };
+}
+
+function getSavedLanguage(): Language {
+  return window.localStorage.getItem(LANGUAGE_KEY) === 'zh' ? 'zh' : 'en';
+}
+
+function getServerLanguage(): Language {
+  return 'en';
+}
+
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>('en');
-
-  // 从 localStorage 恢复语言偏好
-  useEffect(() => {
-    const saved = window.localStorage.getItem('language') as Language | null;
-    if (saved && (saved === 'en' || saved === 'zh')) {
-      setLanguage(saved);
-      document.documentElement.lang = saved === 'zh' ? 'zh-CN' : 'en';
-    }
-  }, []);
+  const language = useSyncExternalStore(subscribeLanguage, getSavedLanguage, getServerLanguage);
 
   useEffect(() => {
-    window.localStorage.setItem('language', language);
     document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en';
   }, [language]);
 
   const toggleLanguage = () => {
-    setLanguage(prev => prev === 'en' ? 'zh' : 'en');
+    window.localStorage.setItem(LANGUAGE_KEY, language === 'en' ? 'zh' : 'en');
+    languageListeners.forEach((listener) => listener());
   };
 
   const t = (key: string): string => {
