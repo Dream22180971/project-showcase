@@ -1,11 +1,11 @@
 <div align="center">
 
 
-# Project Showcase
+# Project Showcase · 项目作品集
 
-**A bilingual, motion-rich portfolio for turning repositories into a visual project story.**
+**一个中英文双语、强调动效和视觉表达的个人项目作品集。**
 
-[English](./README.md) | [简体中文](./README.zh-CN.md)
+[简体中文](./README.md) | [English](./README.en.md)
 
 [![Live Demo](https://img.shields.io/badge/LIVE-project--showcase.seanwalter.top-00BFCB?style=for-the-badge)](https://project-showcase.seanwalter.top)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
@@ -16,24 +16,24 @@
 
 ---
 
-## 💡 Why
+## 💡 为什么做
 
-A GitHub profile explains repositories. A portfolio should explain **why the projects matter**.
+GitHub 主页负责告诉别人“你有哪些仓库”，作品集应该进一步解释 **这些项目为什么值得看**。
 
-Project Showcase adds a visual layer:
+Project Showcase 增加的是视觉表达层：
 
-- bilingual content
-- project filtering and search
-- motion and hover interactions
-- light / dark presentation
-- data-driven project cards
-- responsive layout
+- 中英文切换
+- 项目筛选与搜索
+- 页面和卡片动效
+- 明暗视觉模式
+- 数据驱动项目卡
+- 响应式布局
 
-**Live:** https://project-showcase.seanwalter.top
+**在线体验：** https://project-showcase.seanwalter.top
 
 ---
 
-## ⚡ Quick Start
+## ⚡ 5 分钟快速开始
 
 ```bash
 git clone https://github.com/Dream22180971/project-showcase.git
@@ -43,42 +43,42 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`.
+访问 `http://localhost:3000`。
 
 ---
 
-## 🧭 Core Idea
+## 🧭 核心思路
 
-Project data is centralized so adding a project does not require rebuilding the whole UI.
+项目信息集中管理，新增项目不需要重新改整套 UI。
 
 ```text
-Project data
-    ↓
-Filtering / Search
-    ↓
-Cards / Detail pages
-    ↓
-EN / 中文 presentation
-    ↓
-Portfolio
+项目数据
+   ↓
+筛选 / 搜索
+   ↓
+卡片 / 详情页
+   ↓
+英文 / 中文展示
+   ↓
+作品集
 ```
 
 ---
 
-## ✨ Features
+## ✨ 核心功能
 
-| Feature | Description |
+| 功能 | 说明 |
 |---|---|
-| Bilingual UI | switch between English and Chinese |
-| Motion | page, card and hover interactions |
-| Search & filters | find projects by category or keyword |
-| Responsive | mobile, tablet and desktop layouts |
-| Data-driven | project information lives in structured data |
-| Theme support | visual modes without duplicating content |
+| 双语 UI | 英文 / 中文切换 |
+| 动效 | 页面、卡片和 Hover 交互 |
+| 搜索与筛选 | 按分类或关键词找项目 |
+| 响应式 | 手机、平板和桌面端适配 |
+| 数据驱动 | 项目信息集中在结构化数据里 |
+| 主题 | 不复制内容的情况下切换视觉模式 |
 
 ---
 
-## 🛠 Stack
+## 🛠 技术栈
 
 ```text
 Next.js 16
@@ -91,16 +91,16 @@ Playwright
 
 ---
 
-## 🗺 Roadmap
+## 🗺 路线图
 
-- [x] bilingual experience
-- [x] project filters
-- [x] motion system
-- [x] responsive design
-- [ ] automated GitHub metadata sync
-- [ ] richer case-study pages
-- [ ] project analytics
-- [ ] reusable theme presets
+- [x] 中英文体验
+- [x] 项目筛选
+- [x] 动效系统
+- [x] 响应式
+- [ ] 自动同步 GitHub 元数据
+- [ ] 更完整的 Case Study 页面
+- [ ] 项目分析
+- [ ] 可复用主题预设
 
 ---
 
@@ -110,6 +110,6 @@ Playwright
 
 <div align="center">
 
-**Repositories show code. A portfolio should show intent.**
+**仓库展示代码，作品集展示意图。**
 
 </div>
